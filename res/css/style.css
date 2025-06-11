@@ -11,3 +11,27 @@
   .text-button a:hover i {
     margin-left: 8px;
   }
+.button-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.button-group .btn {
+  flex: 1 1 auto;
+  padding: 12px 24px;
+  min-width: 120px;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .button-group {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .button-group .btn {
+    width: 100%;
+  }
+}
