@@ -1,0 +1,13 @@
+.text-button a {
+    font-size: 15px;
+  }
+  
+  .text-button a i {
+    margin-left: 5px;
+    font-size: 14px;
+    transition: all .3s;
+  }
+  
+  .text-button a:hover i {
+    margin-left: 8px;
+  }
